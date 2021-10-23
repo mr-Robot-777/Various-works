@@ -17,9 +17,12 @@ def get_html(url, params=''):
 
 def get_content(html):
     soup = BeautifulSoup(html, 'html.parser')
-    items = soup.find('div', class_='IndividualTableRow__descriptionColumn___FCe72').text
+    items = soup.find('div', class_='IndividualTableRow__descriptionColumn___dFBnQ').text
     print(items)
 
 
 html = get_html(URL)
 get_content(html.text)
+
+
+

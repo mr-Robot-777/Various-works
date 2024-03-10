@@ -3,7 +3,6 @@ from moviepy.editor import AudioFileClip
 import os
 
 
-
 # ---2--- Функция которая копирует ссылки из файла а потом проходится по ним циклом
 
 def process_line(line):
